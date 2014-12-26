@@ -27,8 +27,8 @@ import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.StatFs;
+import android.support.v4.util.LruCache;
 import android.util.Log;
-import android.util.LruCache;
 
 import java.io.File;
 import java.io.FileDescriptor;
