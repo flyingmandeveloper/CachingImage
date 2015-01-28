@@ -296,7 +296,7 @@ public abstract class ImageWorker {
             if (BuildConfig.DEBUG) {
                 Log.d(TAG, "doInBackground - starting work");
             }
-
+            
             final String dataString = String.valueOf(mData);
             Bitmap bitmap = null;
             BitmapDrawable drawable = null;

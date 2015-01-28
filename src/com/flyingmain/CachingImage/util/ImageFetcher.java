@@ -216,8 +216,7 @@ public class ImageFetcher extends ImageResizer {
                             
 
                                 
-                            if (downloadUrlToStream(data,params,
-                                    editor.newOutputStream(DISK_CACHE_INDEX))) {
+                            if (downloadUrlToStream(data,editor.newOutputStream(DISK_CACHE_INDEX))) {
                                 editor.commit();
                             } else {
                                 editor.abort();
